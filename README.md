@@ -2,11 +2,13 @@
 A neural network framework to visualize sound.
 Currently in the development phase.
 
+
 CONCEPT
 
 The idea behind this project is to mimic the phenomenon of synesthesia, which allows people to create visual representations
 for sounds and music. The generator network is trained with an input of batched WAV data collected from the MAESTRO dataset, and 
 the discriminator is trained on 28 by 28 color "swaths", with each pixel in the swath having the same RGB value. 
+
 
 CURRENT RESULTS
 
