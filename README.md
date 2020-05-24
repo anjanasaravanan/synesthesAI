@@ -11,3 +11,4 @@ The GAN was trained for 250 epochs with a batch size of 500 on 17500000 WAV "mus
 Chopin's Waltz in B-flat minor were inputted to the generator, and the results were evenly sampled to produce a 4 by 4 "color map" of
 the piece. The results are below.
 
+[results](results/test1_even_dist)
