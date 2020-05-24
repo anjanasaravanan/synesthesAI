@@ -23,5 +23,6 @@ FUTURE WORK
 - Research synesthesia as it manifests in humans for potential relevant insights
 - Switch from color "swaths" to gradients or multi-color palettes
 - Extract features from WAV data before feeding into network
+- Evaluate current results, particularly non-uniform outputs
 
 
