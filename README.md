@@ -23,7 +23,7 @@ Chopin's Waltz in B-flat minor were inputted to the generator, and the results w
 UPDATE
 
 A very low-quality video has been produced with an abysmally low 1 frame per second. Much work to be done, including but not limited to:
-increasing the image quality, increasing the frame rate, improving image/song alignment, exploring abberations. Most importantly,
+increasing the image quality, increasing the frame rate, improving image/song alignment, exploring aberrations. Most importantly,
 the GAN should now be run on features extracted from the music rather than raw WAV data.
 
 ![download](results/myvideo.mp4)
