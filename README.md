@@ -25,7 +25,7 @@ A very low-quality video has been produced with an abysmally low 1 frame per sec
 increasing the image quality, increasing the frame rate, improving image/song alignment, exploring abberations. Most importantly,
 the GAN should now be run on features extracted from the music rather than raw WAV data.
 
-![results](results/my_video.mp4)
+![results](results/myvideo.mp4)
 
 FUTURE WORK
 
