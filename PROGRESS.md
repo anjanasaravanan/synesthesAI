@@ -9,7 +9,7 @@
 
 ***May and before***            
   I designed a template for synesthesAI which relied on Generative Adversarial Networks (GANs). The concept I came up with was to train the discriminator on color "blocks", or 28 x 28 RGB squares, and train the generator with an input of WAV data from the MAESTRO dataset. This would, ideally, allow the generator to discover the ideal way of mapping what I'll call 'music vectors' to colors, which is analogous to the phenomenon of synesthesia. 
-For my results, I created a 'color map' of Chopin's Scherzo in B-flat minor by feeding its WAV data into the trained generator and sampling evenly from throughout the generated results to produce what is below. I also produced a video, but the results weren't satisfactory. This was for a number of reasons. For one, there was no logical continuity between colors. Also, as seen in the results below, some frames had nonconformities, which suggested that the generator had failed to formulate a mapping of WAV data to pure color. 
+For my results, I created a 'color map' of Chopin's Scherzo in B-flat minor by feeding its WAV data into the trained generator and sampling evenly from throughout the generated results to produce what is below. This color map can be found at results/gan_even_sampling.png. I also produced a video, but the results weren't satisfactory. This was for a number of reasons. For one, there was no logical continuity between colors. Also some frames had nonconformities and gradients, which suggested that the generator  failed to formulate a mapping of WAV data to pure color. 
 
 
 
