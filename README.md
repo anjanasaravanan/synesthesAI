@@ -10,7 +10,7 @@ for sounds and music.
 
 
 ***Latest Results***            
-Departing from my previous GAN template, I tried using k-means clustering and librosa feature extraction. The results are below.
+Departing from my previous GAN template, I tried using k-means clustering and librosa feature extraction. The results can be found at results/kmeans_first.mp4.
 
 
 
