@@ -4,12 +4,12 @@ Currently in the development phase.
 See PROGRESS.md for detailed updates.
 
 
-***Concept***
+***Concept***           
 The idea behind this project is to mimic the phenomenon of synesthesia, which allows people to create visual representations
 for sounds and music. 
 
 
-***Latest Result***
+***Latest Results***            
 Departing from my previous GAN template, I tried using k-means clustering and librosa feature extraction. The results are below.
 
 
