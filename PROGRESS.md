@@ -6,7 +6,6 @@ The next logical step is to k-means cluster with more WAV data, rather than focu
 
 
 **Early June**
-
 I decided to simplify my efforts and while working on an Arduino color lamp, I was hit with inspiration. The color lamp works by using three phototransistors with red, green, and blue gen placed on top of them respectively to filter out light of a certain color. Then a LED is lit up according to the current generated in each phototransistor. Splitting the data into three channels before processing became an interesting prospect. To do this, I used the LibROSA Python library, which allows users to extract features from WAV data. I extracted a chromogram with 3 bins and assigned the bins to red, green, and blue from lowest frequency to highest (mimicking light). I fed in the Chopin data and now had three channels of 'music data'. Then, departing from the GAN model in the spirit of simplification, I used k-means clustering (from the scikit library) with 10 clusters for each channel. After generating the labels for each constituent vector, I multiplied the label number by 25 to arrive at a R, G, and B value (each component takes on a value between 0 and 255). After doing this, with some manipulation of the sampling rate used by LibROSA, I was able to generate a video of my results. I find it more promising than my earlier results because 1) the generated results are by design uniform and 2) there appears to be some patterns in the progression of colors.
 
 **May and before**
