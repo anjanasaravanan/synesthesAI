@@ -4,7 +4,7 @@
 - departing from chromagram extraction and turning to RMS, so that color intensities reflect the energy present in each frame
 - returning to GAN template and analyzing latest results along with nonconformities
 
-***June 7th***
+***June 7th***          
   Using the k-means clustering method detailed below, about one hour of WAV data was 'clustered'. Then, I used these generated clusters to predict labels for the Chopin scherzo data, and then generated a video based off of that, which can be found at results/km_3inputfit.mp4. There does seem to be some natural progression of colors, but I am now considering moving to RMS feature extraction rather than chromagrams, because this will more accurately reflect the *energy* present in each frame, rather than just the notes. However, I am unsure whether the same binning effect can be achieved with this method.
 
 ***First week of June***            
