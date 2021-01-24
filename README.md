@@ -1,7 +1,7 @@
 # synesthesAI
 
 Currently on hold.
-See PROGRESS.md for detailed updates.
+See PROGRESS.md for detailed updates and my_gan.py for main code.
 
 
 ***Concept***           
