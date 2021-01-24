@@ -1,6 +1,6 @@
 # synesthesAI
 
-Currently in the development phase.
+Currently on hold.
 See PROGRESS.md for detailed updates.
 
 
